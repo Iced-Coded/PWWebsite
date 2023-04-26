@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="vendor/payments.php" method="post">
+        <label for="nickname">Введите свой никнейм</label>
+        <input type="text" name="nickname" id="nickname">
+        <label for="premium"></label>
+        <select name="premium_type" id="premium">
+            <option value="premium_monthly">Премиум на месяц</option>
+            <option value="premium_lifetime">Премиум навсегда</option>
+        </select>
+        <button>Отправить</button>
+    </form>
+</body>
+</html>
